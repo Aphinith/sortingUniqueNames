@@ -20,8 +20,6 @@ var allUsers = ['Nick', 'jake', 'RAY', 'Kate', 'Nick',  'Jeremy', 'nick', 'AMOL'
 
   var uniqueNames = [];
 
-  console.log(allUsersSorted);
-
   for (var i = 0; i < allUsersSorted.length; i++) {
     if (allUsersSorted[i] !== allUsersSorted[i+1]) {
       uniqueNames.push(allUsersSorted[i]);
